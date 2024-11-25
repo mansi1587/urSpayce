@@ -1,0 +1,185 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn{
+  border-radius: 10px;
+  background: rgb(238, 236, 236);
+  border: none;
+  padding: 10px 20px 10px 20px;
+  font-weight: 400;
+  font-size: large;
+
+}
+.btn:hover{
+  background-color: rgb(64, 64, 245);
+  color: white;
+}
+
+.green_para{
+  background-color: #1fc9aa;
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+  width: max-content;
+  padding: 10px 20px 10px 20px;
+  font-size: large;
+}
+.hero-section{
+  display: flex;
+}
+.box1{
+   flex: 0 0 40%;
+   padding-top: 20px;
+   text-align: left;
+}
+.box2{
+  flex: 0 0 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.home_image{
+  width: 100%;
+  height: 450px;
+}
+.home_text{
+  padding-top: 10px;
+  font-size: 70px;
+  font-weight: bolder;
+  margin: 0;
+}
+.home_text_blue{
+  color: blue;
+  font-size: 70px;
+  font-weight: bolder;
+  margin: 0;
+  padding-top: 10px;
+}
+.email-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.email-input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px; /* Rounded corners for the left side */
+  outline: none;
+}
+
+.email-input:focus {
+  border-color: #007BFF;
+}
+
+.get-started-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 20px; /* Rounded corners for the right side */
+  cursor: pointer;
+}
+
+.get-started-button:hover {
+  background-color: #0056b3;
+}
+
+.get-started-button:active {
+  background-color: #004080;
+}
+
+
+
+
+
+.circle-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  border: 4px dashed #d4d9f7;
+  border-radius: 50%;
+  position: relative;
+  
+}
+
+.section {
+  position: absolute;
+  width: 120px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #007BFF;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 25px;
+  cursor: pointer;
+  
+}
+
+/* Hover effect */
+.section:hover {
+  background-color: #0056b3;
+
+}
+.section.active {
+  transform: translate(-50%, -50%) scale(1.1); /* Scale by 10% */
+}
+
+/* Position blue sections in a circular layout */
+.pre-event {
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.day-of-event {
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+.post-event {
+  top: 50%;
+  right: 10%;
+  transform: translate(50%, -50%) rotate(90deg);
+}
+
+.center-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.center-content h1 {
+  font-size: 20px;
+  color: #007BFF;
+  margin: 0;
+}
+
+.center-content h2 {
+  font-size: 14px;
+  margin: 10px 0 0;
+  color: #333;
+}
+.newimg{
+  width: 100%;
+  height: 400px;
+}
